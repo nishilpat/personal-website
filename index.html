@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="home-link" aria-label="Home">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+          <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+          <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+        </svg>
+      </a>
+
+      <div class="chat-wrap">
+        <button class="chat-button" id="chatButton" aria-haspopup="true" aria-expanded="false">
+          Chat
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 9l6 6l6 -6" />
+          </svg>
+        </button>
+
+        <div class="chat-menu" id="chatMenu" role="menu">
+          <a href="mailto:nishil89@me.com" role="menuitem">
+            <svg class="icon-badge menu-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z" />
+              <path d="m4 7 8 6 8-6" />
+            </svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="intro">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4E03AQE7cI4mGBT_sw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678398778460?e=2147483647&v=beta&t=m0Ovdkn-xmUzT-ZxzBYYjcrtWui9C4AEIZMICxJCZWI"
+        alt="Nishil"
+        class="profile-img"
+      />
+
+      <h1>Nishil</h1>
+
+      <div class="bio">
+        <p>
+          Enterprise Sales Executive at
+          <a href="https://drata.com" target="_blank" rel="noopener">
+            <img src="https://www.google.com/s2/favicons?domain=drata.com&sz=32" alt="" />
+            Drata.
+          </a>
+        </p>
+
+        <p>
+          Tinkering with AI on
+          <a href="https://relayserver.netlify.app/" target="_blank" rel="noopener">
+            <svg class="relay-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="7" cy="16" r="2.2" fill="#f25314" />
+              <circle cx="14" cy="6.5" r="2.2" fill="#1398d4" />
+              <circle cx="17" cy="16.5" r="2.2" fill="#50ef8d" />
+            </svg>
+            Relay.
+          </a>
+        </p>
+
+        <p>
+          Previously at
+          <a href="https://netlify.com" target="_blank" rel="noopener">
+            <img src="https://www.google.com/s2/favicons?domain=netlify.com&sz=32" alt="" />
+            Netlify
+          </a>
+          and
+          <a href="https://optimizely.com" target="_blank" rel="noopener">
+            <img src="https://www.google.com/s2/favicons?domain=optimizely.com&sz=32" alt="" />
+            Optimizely.
+          </a>
+        </p>
+
+        <p>Based in Brooklyn, NYC.</p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="links">
+      <h2>Links</h2>
+
+      <div class="link-row">
+        <a href="https://www.linkedin.com/in/nishilp" target="_blank" rel="noopener">
+          <span class="icon-badge linkedin-badge mini" aria-hidden="true">in</span>
+          Linkedin
+        </a>
+        <span class="sep" aria-hidden="true">/</span>
+
+        <a href="https://github.com/nishilpat" target="_blank" rel="noopener">
+          <svg class="icon-badge mini github-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49v-1.72c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.99c.85 0 1.7.12 2.5.35 1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.79c0 .27.18.58.69.48A10.08 10.08 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/>
+          </svg>
+          Github
+        </a>
+        <span class="sep" aria-hidden="true">/</span>
+
+        <a href="https://schedule.qualified.com/Ww4Xdfm" target="_blank" rel="noopener">
+          <img src="https://www.google.com/s2/favicons?domain=qualified.com&sz=32" alt="" />
+          Qualified
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
